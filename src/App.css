@@ -17,26 +17,48 @@ html {
 .header {
   display: flex;
   flex-direction: row;
-  justify-content: space-evenly;
-  padding: 20px 0px;
-  border-bottom: 2px solid olivedrab;
+  justify-content: space-around;
+  padding: 40px 0px;
 }
-
+.logo {
+  font-size: 1.5rem;
+  color: olivedrab;
+}
 .menu-lists {
   display: flex;
   flex-direction: row;
 }
 
 .lists {
-  padding: 0px 30px;
+  padding: 0px 20px;
   list-style-type: none;
+  font-size: 1.3rem;
+  align-items: center;
 }
 
 .links {
   text-decoration: none;
   cursor: pointer;
+  color: olivedrab;
+}
+
+.links:hover {
+  text-decoration: underline;
+  text-underline-offset: 1rem;
+  text-decoration-color: olivedrab;
+}
+.header-link {
+  text-decoration: none;
 }
 
 .icons {
   display: none;
+}
+
+.light {
+  background-color: #fff;
+}
+
+.dark {
+  background-color: #000;
 }
