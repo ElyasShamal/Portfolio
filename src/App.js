@@ -1,12 +1,11 @@
 import "./App.css";
+import Navigetion from "./Components/Navigetion";
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <h1>hi</h1>
-      </header>
-    </div>
+    <>
+      <Navigetion />
+    </>
   );
 }
 
