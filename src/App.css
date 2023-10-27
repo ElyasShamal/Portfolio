@@ -19,6 +19,7 @@ html {
   flex-direction: row;
   justify-content: space-around;
   padding: 40px 0px;
+  width: 100%;
 }
 .logo {
   font-size: 1.5rem;
@@ -55,10 +56,18 @@ html {
   display: none;
 }
 
+.switch-list {
+  margin-top: 6px;
+  padding-left: 10px;
+  list-style-type: none;
+}
+
 .light {
-  background-color: #fff;
+  background-color: white;
+  color: olivedrab;
 }
 
 .dark {
-  background-color: #000;
+  background-color: black;
+  color: olivedrab;
 }
