@@ -62,12 +62,84 @@ html {
   list-style-type: none;
 }
 
+.main {
+  width: 100%;
+}
+
+.container {
+  padding-top: 20vh;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+  width: 70%;
+  margin: auto;
+}
+
+.image {
+  height: 300px;
+  width: 300px;
+  border-radius: 50%;
+  border: 5px solid olivedrab;
+}
+
+.information {
+  margin-left: 10%;
+}
+
+.p-1 {
+  text-align: center;
+  font-size: 1.75rem;
+  font-weight: 600;
+  color: rgb(85, 85, 85);
+}
+
+.p-2 {
+  font-size: 1.5rem;
+  font-weight: 600;
+  margin-bottom: 0.9rem;
+  color: rgb(85, 85, 85);
+}
+
+.title {
+  font-size: 2.2rem;
+  text-align: center;
+  color: olivedrab;
+}
+
+.info-btns {
+  display: flex;
+  justify-content: center;
+  margin-top: 1rem;
+  gap: 1rem;
+}
+
+.btn {
+  padding: 8px 8px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.info-btns :nth-child(1) {
+  background-color: olivedrab;
+  color: white;
+  padding: 0px 35px;
+}
+
 .light {
   background-color: white;
-  color: olivedrab;
 }
 
 .dark {
   background-color: black;
   color: olivedrab;
+}
+
+.dark .p-1 {
+  color: white;
+}
+
+.dark .p-2 {
+  color: white;
 }

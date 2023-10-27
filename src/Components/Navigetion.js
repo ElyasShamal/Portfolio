@@ -1,14 +1,17 @@
 import React from "react";
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
-import Main from "./Main";
+
 import Header from "./Header";
+import About from "./About";
+import Main from "./Main";
 
 function Navigetion() {
   return (
     <Router>
       <Header />
       <Routes>
-        <Route path="/About" element={<Main />} />
+        <Route path="/" element={<Main />} />
+        <Route path="/About" element={<About />} />
       </Routes>
     </Router>
   );
