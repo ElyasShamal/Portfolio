@@ -41,6 +41,7 @@ html {
   text-decoration: none;
   cursor: pointer;
   color: olivedrab;
+  scroll-behavior: smooth;
 }
 
 .links:hover {
@@ -122,8 +123,6 @@ html {
 }
 
 .info-btns :nth-child(1) {
-  background-color: olivedrab;
-  color: white;
   padding: 0px 35px;
 }
 

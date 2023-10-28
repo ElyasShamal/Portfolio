@@ -8,7 +8,7 @@ function Main() {
     <main className="main">
       <div className="container">
         <div className="image-container">
-          <img src={elyas} alt="Elyas" className="image" />
+          <img src={elyas} alt="Elyas" className="image" loading="lazy" />
         </div>
         <div className="information">
           <p className="p-1">Hello, I'm</p>
