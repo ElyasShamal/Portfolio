@@ -1,5 +1,4 @@
 import React from "react";
-import { Link } from "react-router-dom";
 import "../App.css";
 import Switch from "./Switch";
 
@@ -8,24 +7,24 @@ function Navbar() {
     <nav className="navbar">
       <ul className="menu-lists">
         <li className="lists">
-          <Link className="links" to="/About">
+          <a className="links" href="#about">
             About
-          </Link>
+          </a>
         </li>
         <li className="lists">
-          <Link className="links" to="/Skills">
+          <a className="links" href="#skills">
             Skills
-          </Link>
+          </a>
         </li>
         <li className="lists">
-          <Link className="links" to="/Projects">
+          <a className="links" href="#projects">
             Projects
-          </Link>
+          </a>
         </li>
         <li className="lists">
-          <Link className="links" to="/Contact">
+          <a className="links" href="#contact">
             Contact
-          </Link>
+          </a>
         </li>
         <li className="switch-list">
           <Switch />

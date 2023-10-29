@@ -2,17 +2,16 @@ import React from "react";
 import Navbar from "./Navbar";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faBars } from "@fortawesome/free-solid-svg-icons";
-import { Link } from "react-router-dom";
 
 function Header() {
   return (
-    <header className="header">
-      <Link className="header-link" to="/">
+    <div className="conatiner">
+      <header className="header">
         <div className="logo">Elyas</div>
-      </Link>
-      <Navbar />
-      <FontAwesomeIcon icon={faBars} className="icons" />
-    </header>
+        <Navbar />
+        <FontAwesomeIcon icon={faBars} className="icons" />
+      </header>
+    </div>
   );
 }
 

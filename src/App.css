@@ -68,7 +68,6 @@ html {
 }
 
 .container {
-  padding-top: 20vh;
   display: flex;
   flex-direction: row;
   justify-content: center;
@@ -76,6 +75,7 @@ html {
   align-items: center;
   width: 70%;
   margin: auto;
+  min-height: 600px;
 }
 
 .image {
@@ -139,6 +139,11 @@ html {
   color: olivedrab;
   font-size: 30px;
   border-radius: 5px;
+}
+
+.main {
+  margin: auto;
+  width: 70%;
 }
 
 .light {
