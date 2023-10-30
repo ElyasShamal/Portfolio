@@ -63,17 +63,13 @@ html {
   list-style-type: none;
 }
 
-.main {
-  width: 100%;
-}
-
 .container {
   display: flex;
   flex-direction: row;
   justify-content: center;
   text-align: center;
   align-items: center;
-  width: 70%;
+  width: 100%;
   margin: auto;
   min-height: 600px;
 }
@@ -86,7 +82,7 @@ html {
 }
 
 .information {
-  margin-left: 10%;
+  margin-left: 5%;
 }
 
 .p-1 {
@@ -143,7 +139,21 @@ html {
 
 .main {
   margin: auto;
-  width: 70%;
+  width: 100%;
+  text-align: center;
+}
+
+#about {
+  margin-top: 30px;
+  color: olivedrab;
+  min-height: 600px;
+}
+
+.education {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  border: 3px solid olivedrab;
 }
 
 .light {

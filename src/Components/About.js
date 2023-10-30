@@ -1,9 +1,18 @@
 import React from "react";
+import logo from "./photos/logo.jpg";
 
 function About() {
   return (
-    <section id="about" style={{ minHeight: "600px" }}>
-      <h1>about</h1>
+    <section id="about">
+      <h1>About Me</h1>
+      <div className="education">
+        <img src={logo} alt="logo" />
+        <h1>Name</h1>
+        <div>
+          <img src={logo} alt="logo" />
+          <h1>Name</h1>
+        </div>
+      </div>
     </section>
   );
 }
