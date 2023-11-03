@@ -12,6 +12,7 @@ function Switch() {
   }, [theme]);
 
   const toggleTheme = () => {
+    // setTheme(alert("Hi, its not done yet"));
     setTheme((currentTheme) => (currentTheme === "light" ? "dark" : "light"));
   };
 
@@ -21,10 +22,10 @@ function Switch() {
       onChange={toggleTheme}
       checked={theme === "dark"}
       handleDiameter={15}
-      offColor="#6b8e23"
-      onColor="#6b8e23"
-      offHandleColor="#FFFFFF"
-      onHandleColor="#FFFFFF"
+      offColor="#000"
+      onColor="#FFF"
+      offHandleColor="#FFF"
+      onHandleColor="#000"
       height={20}
       width={55}
       uncheckedIcon

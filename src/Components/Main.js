@@ -3,12 +3,11 @@ import About from "./About";
 import elyas from "./photos/elyas.jpg";
 import Button from "./Button";
 import Icons from "./Icons";
-import Header from "./Header";
+import Skills from "./Skills";
 
 function Main() {
   return (
     <div className="bg-container">
-      <Header />
       <main className="main">
         <section className="container">
           <div className="image-container">
@@ -24,6 +23,7 @@ function Main() {
         </section>
 
         <About />
+        <Skills />
       </main>
     </div>
   );

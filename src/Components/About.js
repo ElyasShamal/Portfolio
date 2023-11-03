@@ -3,8 +3,8 @@ import logo from "./photos/logo.jpg";
 
 function About() {
   return (
-    <section id="about">
-      <h1>About Me</h1>
+    <section id="about" className="about">
+      <h2>About Me</h2>
       <div className="education">
         <div>
           <img src={logo} alt="logo" />
