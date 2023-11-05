@@ -4,6 +4,7 @@ import elyas from "./photos/elyas.jpg";
 import Button from "./Button";
 import Icons from "./Icons";
 import Skills from "./Skills";
+import Projects from "./Projects";
 
 function Main() {
   return (
@@ -21,9 +22,9 @@ function Main() {
             <Icons />
           </div>
         </section>
-
         <About />
         <Skills />
+        <Projects />
       </main>
     </div>
   );
