@@ -5,10 +5,11 @@ import Button from "./Button";
 import Icons from "./Icons";
 import Skills from "./Skills";
 import Projects from "./Projects";
+import Contact from "./Contact";
 
 function Main() {
   return (
-    <div className="bg-container">
+    <div className="bg-container" id="main">
       <main className="main">
         <section className="container">
           <div className="image-container">
@@ -25,6 +26,7 @@ function Main() {
         <About />
         <Skills />
         <Projects />
+        <Contact />
       </main>
     </div>
   );
