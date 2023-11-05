@@ -40,19 +40,22 @@ function About() {
           <span>March 11, 2022</span>
         </div>
       </div>
-      <p className="about-me">
-        I'm Elyas, a passionate Front End Software Engineer with a background in
-        computer science. I bring a unique blend of technical knowledge and
-        creativity to the world of software development. Skilled in front-end
-        development with HTML, CSS, and JavaScript, I specialize in creating
-        dynamic web applications that engage and delight users. My proficiency
-        extends to working with popular frameworks like React, enabling me to
-        craft interactive and intuitive user interfaces. But what sets me apart
-        is my adaptability. I'm not just a software developer; I'm multilingual
-        and a fast learner, always eager to embrace new challenges. I thrive in
-        collaborative environments and actively seek opportunities to contribute
-        my skills and my unwavering passion for software development.
-      </p>
+      <div>
+        <p className="about-me">
+          I'm Elyas, a passionate Front End Software Engineer with a background
+          in computer science. I bring a unique blend of technical knowledge and
+          creativity to the world of software development. Skilled in front-end
+          development with HTML, CSS, and JavaScript, I specialize in creating
+          dynamic web applications that engage and delight users. My proficiency
+          extends to working with popular frameworks like React, enabling me to
+          craft interactive and intuitive user interfaces. But what sets me
+          apart is my adaptability. I'm not just a software developer; I'm
+          multilingual and a fast learner, always eager to embrace new
+          challenges. I thrive in collaborative environments and actively seek
+          opportunities to contribute my skills and my unwavering passion for
+          software development.
+        </p>
+      </div>
     </section>
   );
 }

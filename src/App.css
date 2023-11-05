@@ -144,7 +144,7 @@ html {
 .about {
   min-height: 650px;
   width: 70%;
-  margin: 60px auto;
+  margin: auto;
   padding-top: 40px;
 }
 
@@ -299,6 +299,52 @@ html {
   padding: 10px;
   border-radius: 10px;
 } */
+
+@media screen and (max-width: 614px) {
+  .icons {
+    display: block;
+  }
+
+  .header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+  }
+  .navbar {
+    display: none;
+  }
+
+  .container {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .education {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+    grid-gap: 30px;
+    margin-top: 3rem;
+  }
+
+  .grid-2 {
+    display: inline-grid;
+    grid-template-columns: auto auto;
+  }
+
+  .Skill-section {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+  }
+
+  .about-me {
+    min-width: 250px;
+    word-break: break-all;
+  }
+
+  * {
+    text-align: center;
+  }
+}
 
 .light {
   color: black;
