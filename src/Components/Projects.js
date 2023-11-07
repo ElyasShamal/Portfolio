@@ -1,17 +1,7 @@
-import React, { useEffect } from "react";
+import React from "react";
 import Data from "./data";
 
 function Projects() {
-  function alertUser() {
-    if (window.location.hash === "#projects") {
-      alert("I will replace projects section with My projects Soon");
-    }
-  }
-
-  useEffect(() => {
-    alertUser();
-  }, []);
-
   return (
     <section id="projects">
       <h1>Projects</h1>

@@ -6,9 +6,19 @@ function Button() {
     const resumePdfUrl = resume;
     window.open(resumePdfUrl, "_blank");
   };
+
+  const scrollToContact = () => {
+    const contactSection = document.getElementById("contact");
+    if (contactSection) {
+      contactSection.scrollIntoView({ behavior: "smooth" });
+    }
+  };
+
   return (
     <div className="info-btns">
-      <button className="btn">Contact</button>
+      <button className="btn" onClick={scrollToContact}>
+        Contact
+      </button>
       <button className="btn" onClick={openResumeInNewTab}>
         Download Cv
       </button>
