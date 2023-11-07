@@ -190,8 +190,9 @@ html {
 .Skill-section {
   display: grid;
   grid-template-columns: repeat(auto-fill, minmax(400px, 1fr));
-  grid-gap: 30px;
-  margin-top: 3rem;
+
+  /* need to chnage the gap */
+  margin-top: 2rem;
 }
 
 .Skill-section div {
@@ -303,20 +304,29 @@ html {
 @media screen and (max-width: 614px) {
   .icons {
     display: block;
+    padding-top: 8px;
+    font-size: 18px;
   }
 
   .header {
     display: flex;
     flex-direction: row;
-    justify-content: space-around;
+    justify-content: space-between;
+    padding: 40px 3rem;
   }
   .navbar {
     display: none;
   }
 
+  .title {
+    font-size: 2rem;
+  }
+
   .container {
     display: flex;
     flex-direction: column;
+    flex-wrap: wrap;
+    min-height: 83vh;
   }
 
   .education {
@@ -338,11 +348,26 @@ html {
 
   .about-me {
     min-width: 250px;
+
     word-break: break-all;
   }
 
-  * {
-    text-align: center;
+  .container {
+    position: relative;
+    top: 0;
+  }
+
+  .image {
+    width: auto;
+    height: 46vw;
+    justify-content: center;
+    /* height: 36vh; */
+  }
+
+  .information {
+    padding-top: 1rem;
+    height: 46vh;
+    justify-content: center;
   }
 }
 
