@@ -19,7 +19,7 @@ function About() {
             </a>
             <br></br>Frontend Development, <br></br> Software Enginering
           </p>
-          <span>february 2023 to October 2023</span>
+          <span>Feb 2023 to Oct 2023</span>
         </div>
         <div>
           <img src={logo} alt="logo" />
@@ -40,8 +40,8 @@ function About() {
           <span>March 11, 2022</span>
         </div>
       </div>
-      <div>
-        <p className="about-me">
+      <div className="about-me">
+        <p>
           I'm Elyas, a passionate Front End Software Engineer with a background
           in computer science. I bring a unique blend of technical knowledge and
           creativity to the world of software development. Skilled in front-end
