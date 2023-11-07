@@ -393,7 +393,6 @@ html {
     width: auto;
     height: 46vw;
     justify-content: center;
-    /* height: 36vh; */
   }
 
   .information {
@@ -409,11 +408,4 @@ html {
 
 .dark {
   background-color: #afdbf5;
-  color: white;
-}
-
-@media screen and (min-width: 614px) {
-  .open {
-    display: none;
-  }
 }

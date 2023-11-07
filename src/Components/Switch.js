@@ -12,7 +12,6 @@ function Switch() {
   }, [theme]);
 
   const toggleTheme = () => {
-    // setTheme(alert("Hi, its not done yet"));
     setTheme((currentTheme) => (currentTheme === "light" ? "dark" : "light"));
   };
 
