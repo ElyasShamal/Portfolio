@@ -1,17 +1,10 @@
 const Data = [
   {
-    name: "Movie",
-    link: "https://elyas-movie-land.netlify.app/",
+    name: "Movie App",
+    link: "https://all-movie.netlify.app/",
     imageUrl:
-      "https://github.com/ElyasShamal/elyas-shamal/blob/main/src/Components/project-images/movie.jpg.png?raw=true",
-    githubUrl: "https://github.com/ElyasShamal/movie-land",
-  },
-  {
-    name: "My portfolio",
-    link: "https://elyas-movie-land.netlify.app/",
-    imageUrl:
-      "https://github.com/ElyasShamal/elyas-shamal/blob/main/src/Components/project-images/movie.jpg.png?raw=true",
-    githubUrl: "https://github.com/ElyasShamal/movie-land",
+      "https://github.com/ElyasShamal/elyas-shamal/blob/main/src/Components/project-images/movie-1.jpg.png?raw=true",
+    githubUrl: "https://github.com/ElyasShamal/movie-website",
   },
   {
     name: "Toy tale",
@@ -20,20 +13,13 @@ const Data = [
       "https://github.com/ElyasShamal/elyas-shamal/blob/main/src/Components/project-images/toy.jpg.png?raw=true",
     githubUrl: "https://github.com/ElyasShamal/Toy-Tale",
   },
-  {
-    name: "Music Collection",
-    link: "https://music-collection.netlify.app/",
-    imageUrl:
-      "https://github.com/ElyasShamal/elyas-shamal/blob/main/src/Components/project-images/album.jpg.png?raw=true",
-    githubUrl: "https://github.com/ElyasShamal/album-collection",
-  },
 
   {
-    name: "Movie",
-    link: "https://elyas-movie-land.netlify.app/",
+    name: "Note App",
+    link: "https://note-app-1.netlify.app/",
     imageUrl:
-      "https://github.com/ElyasShamal/elyas-shamal/blob/main/src/Components/project-images/movie.jpg.png?raw=true",
-    githubUrl: "https://github.com/ElyasShamal/movie-land",
+      "https://github.com/ElyasShamal/elyas-shamal/blob/main/src/Components/project-images/note.jpg.png?raw=true",
+    githubUrl: "https://github.com/ElyasShamal/note-app",
   },
   {
     name: "Music Collection",
@@ -42,27 +28,19 @@ const Data = [
       "https://github.com/ElyasShamal/elyas-shamal/blob/main/src/Components/project-images/album.jpg.png?raw=true",
     githubUrl: "https://github.com/ElyasShamal/album-collection",
   },
-
   {
-    name: "Movie",
-    link: "https://elyas-movie-land.netlify.app/",
+    name: "Github",
+    link: "https://elyasshamal-github-uesrs.netlify.app/",
     imageUrl:
-      "https://github.com/ElyasShamal/elyas-shamal/blob/main/src/Components/project-images/movie.jpg.png?raw=true",
-    githubUrl: "https://github.com/ElyasShamal/movie-land",
-  },
-  {
-    name: "Music Collection",
-    link: "https://music-collection.netlify.app/",
-    imageUrl:
-      "https://github.com/ElyasShamal/elyas-shamal/blob/main/src/Components/project-images/album.jpg.png?raw=true",
-    githubUrl: "https://github.com/ElyasShamal/album-collection",
+      "https://github.com/ElyasShamal/elyas-shamal/blob/main/src/Components/project-images/github.jpg.png?raw=true",
+    githubUrl: "https://github.com/ElyasShamal/github-users",
   },
 
   {
-    name: "Movie",
+    name: "movie",
     link: "https://elyas-movie-land.netlify.app/",
     imageUrl:
-      "https://github.com/ElyasShamal/elyas-shamal/blob/main/src/Components/project-images/movie.jpg.png?raw=true",
+      "https://github.com/ElyasShamal/elyas-shamal/blob/main/src/Components/project-images/movie-land.jpg.png?raw=true",
     githubUrl: "https://github.com/ElyasShamal/movie-land",
   },
 ];
