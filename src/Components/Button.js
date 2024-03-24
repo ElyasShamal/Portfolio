@@ -1,5 +1,5 @@
 import React from "react";
-import resume from "./photos/resume.pdf";
+import resume from "./photos/Elyas shamal resume.pdf";
 
 function Button() {
   const openResumeInNewTab = () => {
