@@ -391,10 +391,12 @@ html {
   }
 
   .about-me p {
-    word-spacing: normal;
-    word-wrap: normal;
+    margin: 0;
+    padding: 0px;
+    word-break: keep-all;
+    text-align: justify;
+    /* word-spacing: -1px; */
   }
-
   .projects {
     margin-left: 1rem;
     margin-right: 1rem;
